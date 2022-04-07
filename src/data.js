@@ -12,7 +12,7 @@ export default [
     imageUrl: "https://source.unsplash.com/WLxQvbMyfas",
   },
   {
-    id: 1,
+    id: 2,
     title: "Sydney Opera House",
     location: "Australia",
     googleMapsUrl: "https://goo.gl/maps/9P1G4nmVWLKviPY76",
@@ -23,7 +23,7 @@ export default [
     imageUrl: "https://source.unsplash.com/JmuyB_LibRo",
   },
   {
-    id: 1,
+    id: 3,
     title: "Geirangerfjord",
     location: "Norway",
     googleMapsUrl: "https://goo.gl/maps/AUiv3xasVFsRKhT57",
