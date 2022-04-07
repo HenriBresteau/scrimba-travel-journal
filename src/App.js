@@ -1,5 +1,12 @@
 import React from "react";
+import Main from "./Components/Main/Main";
+import Navbar from "./Components/Navbar/Navbar";
 
 export default function App() {
-  return <h1>Coucou</h1>;
+  return (
+    <div>
+      <Navbar />
+      <Main />
+    </div>
+  );
 }

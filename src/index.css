@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-main: #fff;
+  --bg-header: #f55a5a;
+  --color-text: #2b283a;
+  --color-a: #918e9b;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a,
+a:visited {
+  color: #918e9b;
+  text-decoration: solid var(--color-a);
+}
