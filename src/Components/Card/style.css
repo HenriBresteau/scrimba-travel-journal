@@ -1,0 +1,68 @@
+.card {
+  display: grid;
+  grid-template-columns: 20% 75%;
+  grid-gap: 5%;
+}
+@media screen and (max-width: 630px) {
+  .card {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    padding: 30px;
+  }
+}
+.left--img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+.maps {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.maps img {
+  width: 7px;
+  height: 10px;
+  margin-right: 5px;
+}
+.maps p {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: var(--color-text);
+  margin-right: 12px;
+}
+.maps a {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+.title h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--color-text);
+  margin-bottom: 16px;
+}
+.date {
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: var(--color-text);
+  margin-bottom: 7px;
+}
+.description {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: var(--color-text);
+}
+.card--right {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
