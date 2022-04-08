@@ -11,10 +11,18 @@
 }
 body {
   font-family: "Inter", sans-serif;
+  height: 100vh;
 }
 
 a,
 a:visited {
   color: #918e9b;
-  text-decoration: solid var(--color-a);
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  max-width: 600px;
+  margin: 30px auto;
 }
